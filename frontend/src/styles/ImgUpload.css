@@ -1,0 +1,30 @@
+.ImgUpload {
+    border: 1px solid skyblue;
+    text-align: center;
+}
+
+.upload{
+    margin: 20px;
+    
+}
+
+.upload>p{
+    font-weight: bold;
+}
+
+.upload>form>input{
+    border:1px solid skyblue;
+    border-radius: 12px;
+    padding:10px;
+}
+
+.upload>form>button{
+    border:1px solid skyblue;
+    border-radius: 12px;
+    padding: 10px;
+    margin-left: 5px;
+    background-color: skyblue;
+    color: white;
+    font-weight: bold;
+    padding: 13px;
+}
