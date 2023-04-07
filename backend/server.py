@@ -24,9 +24,9 @@ def resvisionapi(imgname):
     response = client.label_detection(image=image)
     labels = response.label_annotations
     print('Labels:')
-    # for label in labels:
-    #     print(label.description + " = " + str(int(label.score*100)) + "%")
-    print(labels)
+    for label in labels:
+        print(label.description + " = " + str(int(label.score*100)) + "%")
+    # print(labels)
     return labels
 
 
@@ -39,7 +39,7 @@ def upload():
     imgdata.save(os.path.join('.\images', imgname))
     print('이미지 저장완료')
 
-    resvisionapi(imgname)
+    labels = resvisionapi(imgname)
 
     return imgname
 

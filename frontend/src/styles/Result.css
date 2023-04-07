@@ -1,0 +1,11 @@
+.Result{
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    margin-top: 5px;
+    text-align: center;
+
+}
+
+.textarea>p{
+    font-weight: bold;
+}

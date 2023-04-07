@@ -1,24 +1,29 @@
 .ImgUpload {
-    border: 1px solid skyblue;
-    text-align: center;
+    margin-right: 10px; /*result 컴포넌트에도 동일하게 수정*/
 }
 
 .upload{
-    margin: 20px;
-    
+    /* margin: 20px; */
+    border: 2px solid #87ceeb;
+    border-radius: 10px;
+    text-align: center;
 }
 
-.upload>p{
+.upload-g{
+    margin: 20px;
+}
+
+.upload-g>p{
     font-weight: bold;
 }
 
-.upload>form>input{
+.upload-g>form>input{
     border:1px solid skyblue;
     border-radius: 12px;
     padding:10px;
 }
 
-.upload>form>button{
+.upload-g>form>button{
     border:1px solid skyblue;
     border-radius: 12px;
     padding: 10px;
@@ -27,4 +32,20 @@
     color: white;
     font-weight: bold;
     padding: 13px;
+}
+
+.preview{
+    margin-top: 40px;
+    border: 2px solid #87ceeb;
+    border-radius: 10px;
+}
+
+.preview-img{
+    border: 1px solid skyblue;
+    border-radius: 10px;
+    height: 550px;
+    width: 420px;
+    text-align: center;
+    display:table-cell;
+    vertical-align:middle;
 }
